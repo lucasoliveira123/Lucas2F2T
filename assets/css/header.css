@@ -15,7 +15,7 @@
 
 }
 
-.menu-lista-titulo{
+.menu-lista{
     display: none;
     position: absolute;
     width: 60vh;
@@ -23,7 +23,7 @@
 
 }
 
-.seletor-menu-checked ~ .menu-lista{
+.seletor-menu:checked ~ .menu-lista{
     display: block;
 }
 
