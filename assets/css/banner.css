@@ -24,11 +24,13 @@
     padding: 1em;
     width: 100%;
     background: url("../img/AluraBooks/Pesquisa.svg") no-repeat;
+    background-position: 1em;
+    text-align: center;
 }
 
 
 .banner-pesquisa::placeholder{
-    font-family: 'Poppins',sans-serif;
+    font-family: "Poppins",sans-serif;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
