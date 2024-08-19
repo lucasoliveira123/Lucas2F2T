@@ -59,7 +59,7 @@
         <div class="swiper-slide"><img src="assets/img/AluraBooks/Portugol.png" alt=""></div>
         <div class="swiper-slide"><img src="assets/img/AluraBooks/Nodejs.svg" alt=""></div>
        
-       
+       </div>
         <div class="swiper-pagination"></div>
 
         <div class="swiper-button-prev"></div>
@@ -79,10 +79,14 @@
  
 <script>
     const swiper = new Swiper('.swiper', {
-   spacebetween: 10
-   slidesperview: 3  
-  } 
-    )
+   spacebetween: 10,
+   slidesPerView: 3
+   pagination:{
+       el: ".swiper-pagination",
+       type: "bullets",
+   }
+      },
+    );
 </script>
 </body>
 </html>
