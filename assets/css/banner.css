@@ -5,10 +5,12 @@
     padding: 2.5em 2em;
 }
 
+
 .banner-titulo{
     font-size: 18px;
     font-weight: 700;
 }
+
 
 .banner-texto{
     font-weight: 500;
@@ -18,8 +20,8 @@
 
 .banner-pesquisa{
     background-color: transparent;
-    border: 1px solid var(--brancos);
-    color: var(--branco);
+    border:1px solid var(--branco);
+    color:var(--branco);
     border-radius: 24px;
     padding: 1em;
     width: 100%;
@@ -30,9 +32,9 @@
 
 
 .banner-pesquisa::placeholder{
-    font-family: "Poppins",sans-serif;
+    font-family: 'poppins,sans-serif';
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    color: var(--branco);
+    color: var(--branco)
 }
