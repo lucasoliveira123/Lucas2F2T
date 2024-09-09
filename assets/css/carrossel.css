@@ -57,7 +57,7 @@
     display: flex;
 }   
 
-.descricao-titulo{
+.descricao-titulo-texto{
     color: var (--azul);
     font-size: 18px;
     font-weight: 700;
@@ -66,3 +66,31 @@
     
 
 }
+
+
+.descricao-texto{
+    font-size: 14px;
+}
+
+
+.descricao-titulo-livro{
+    font-weight: 700;
+   margin: 0.5em;
+    font-size: 20px;
+    
+    color: var(--azul)
+    
+    
+    
+}
+
+
+.botoes-ancora{
+    text-decoration: none;
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    border-radius: 5%;
+}
+
