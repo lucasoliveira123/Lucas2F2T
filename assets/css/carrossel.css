@@ -27,7 +27,7 @@
 
 .card{
     background-color: var(--branco);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     margin: 1em;
     padding: 1em;
@@ -38,7 +38,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 00.5em;
+    margin-bottom: 0.5em;
 }
 
 .descricao-titulo{
@@ -53,37 +53,27 @@
     justify-content: space-between;
 }
 
+
+
 .botoes{
     display: flex;
 }   
 
-.descricao-titulo-texto{
-    color: var (--azul);
-    font-size: 18px;
+.descricao-titulo-livro{
+      color: var(--azul);
+      font-size: 20px;
     font-weight: 700;
-    margin: 0.5em;
-
+   margin: 0.5em;
     
-
+    
+  
+    
+    
+    
 }
-
-
 .descricao-texto{
     font-size: 14px;
 }
-
-
-.descricao-titulo-livro{
-    font-weight: 700;
-   margin: 0.5em;
-    font-size: 20px;
-    
-    color: var(--azul)
-    
-    
-    
-}
-
 
 .botoes-ancora{
     text-decoration: none;
@@ -91,6 +81,5 @@
     padding: 1em 2.2em;
     color: var(--branco);
     font-weight: 700;
-    border-radius: 5%;
 }
 

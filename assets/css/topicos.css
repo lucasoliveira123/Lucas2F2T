@@ -1,7 +1,7 @@
 .topicos{
     background-image: var(--azul-degrade);
     text-align: center;
-    padding-left: 1em 0;
+    padding: 1em 0;
 }
 
 
@@ -20,6 +20,15 @@ justify-content: center;
 
 }
 
-.topicos-item a{
+.topicos-item {
+    margin: 2em 0.5em;
+}
+.topicos-link{
     color: var(--branco);
+    background-color: var(--laranja);
+    text-decoration: none;
+    padding: 1em;
+    font-size: 14px;
+    font-weight: 700;
+
 }
